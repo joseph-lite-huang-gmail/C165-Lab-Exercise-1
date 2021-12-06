@@ -1,0 +1,4 @@
+node -v
+npm -v
+Set-Content -Path '.\app.js' -Value 'console.log("something");'
+node app.js
